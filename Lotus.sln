@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lotus", "Lotus\Lotus.csproj", "{74BAD9C9-28FA-492C-ADE6-E8DA17D91BFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lotus.BBL", "Lotus.BBL\Lotus.BBL.csproj", "{BA2C0D41-9EBA-4BA4-AFA3-0EAAACC75CE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74BAD9C9-28FA-492C-ADE6-E8DA17D91BFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74BAD9C9-28FA-492C-ADE6-E8DA17D91BFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74BAD9C9-28FA-492C-ADE6-E8DA17D91BFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74BAD9C9-28FA-492C-ADE6-E8DA17D91BFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA2C0D41-9EBA-4BA4-AFA3-0EAAACC75CE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA2C0D41-9EBA-4BA4-AFA3-0EAAACC75CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA2C0D41-9EBA-4BA4-AFA3-0EAAACC75CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA2C0D41-9EBA-4BA4-AFA3-0EAAACC75CE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92ECC23E-2013-4DBE-B4ED-7AC517674759}
+	EndGlobalSection
+EndGlobal
