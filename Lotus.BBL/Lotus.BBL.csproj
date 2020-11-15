@@ -10,4 +10,12 @@
     <PackageReference Include="TweetinviAPI" Version="5.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Lotus.Resources\Lotus.Resources.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\ResourceWork\" />
+  </ItemGroup>
+
 </Project>
