@@ -8,4 +8,4 @@ The main features of the program are (for twitter):
 - [ ] Automatic followback users that follow you
 - [ ] Search for people to follow from the pages of competitors
 - [ ] Automatic like tweets
-- [ ] Automatic do re-tweets
+- [ ] Automatic do retweets
