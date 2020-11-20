@@ -5,6 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Hangfire.AspNetCore" Version="1.7.17" />
+    <PackageReference Include="Hangfire.MemoryStorage" Version="1.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Lotus.BBL\Lotus.BBL.csproj" />
   </ItemGroup>
 

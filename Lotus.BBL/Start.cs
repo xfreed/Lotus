@@ -12,8 +12,9 @@ namespace Lotus.BBL
     {
         public static async Task Main(string[] args)
         {
-            
-
+           //TwitterService twitter = new TwitterService();
+           // await twitter.UnFollowUsersNotFollowingYouAsync();
+           // await twitter.FollowUsersByTextAsync("#lofi");
         }
     }
 }

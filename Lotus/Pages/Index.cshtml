@@ -7,6 +7,49 @@
 <div class="d-sm-flex justify-content-between align-items-center mb-4">
     <h3 class="text-dark mb-0">Dashboard</h3>
 </div>
-<div class="row">
-    
+<div class="row dashboard">
+    <div class="col">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Twitter statistics</h4>
+                <strong><h6 class="text-muted card-subtitle mb-2" id="card-username">username</h6></strong>
+                <ul class="list-group">
+                    <li class="list-group-item"><span>Followers: </span><span id="total-followers">0</span></li>
+                    <li class="list-group-item"><span>Following: </span><span id="total-following">0</span></li>
+                    <li class="list-group-item"><span>Total likes: </span><span id="total-likes">Nah now</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card">
+            <div class="card-body">
+                <textarea id="log-area" readonly="readonly">Starting...</textarea>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row dashboard">
+    <div class="col">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title twitter-options">Twitter options</h4>
+                <button id="twitter-auto" class="btn btn-primary" type="button">Start all automatic</button>
+                <button id="twitter-following" class="btn btn-primary" type="button" data-toggle="modal" data-target="#twitter-following-modal">Start automatic following</button>
+                <button id="twitter-user-remover"class="btn btn-primary" type="button">Remove user that not following you</button></div>
+        </div>
+    </div>
+    <div class="col"></div>
+</div>
+
+<div id="twitter-following-modal" role="dialog" tabindex="-1" class="modal fade">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Twitter settings</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+            <div class="modal-body">
+                <p>Specify the text to search for people (text or hashtags)</p><textarea id="twitter-following-text-textarea"></textarea></div>
+            <div class="modal-footer"><button id="twitter-following-text-button" class="btn btn-primary" type="button">Save</button></div>
+        </div>
+    </div>
 </div>

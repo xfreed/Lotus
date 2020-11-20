@@ -7,15 +7,12 @@
 
   <ItemGroup>
     <PackageReference Include="Facebook" Version="7.0.6" />
-    <PackageReference Include="TweetinviAPI" Version="5.0.2" />
+    <PackageReference Include="Hangfire.AspNetCore" Version="1.7.17" />
+    <PackageReference Include="TweetinviAPI" Version="5.0.3" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Lotus.Resources\Lotus.Resources.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Services\ResourceWork\" />
   </ItemGroup>
 
 </Project>

@@ -97,7 +97,7 @@ namespace Lotus.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10000.
+        ///   Looks up a localized string similar to 240000.
         /// </summary>
         public static string TwitterFollowDelay {
             get {

@@ -2,6 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Hangfire;
+using Hangfire.MemoryStorage;
+using Lotus.BBL.Interfaces;
+using Lotus.BBL.Services.Twitter;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -24,6 +28,13 @@ namespace Lotus
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+
+            services.AddScoped<ITwitterService, TwitterService>();
+
+            services.AddHangfire(config =>
+            {
+                config.UseMemoryStorage();
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -51,6 +62,9 @@ namespace Lotus
             {
                 endpoints.MapRazorPages();
             });
+
+            app.UseHangfireDashboard();
+            app.UseHangfireServer();
         }
     }
 }

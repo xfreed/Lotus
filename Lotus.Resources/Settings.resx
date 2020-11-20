@@ -130,7 +130,7 @@
     <value />
   </data>
   <data name="TwitterFollowDelay" xml:space="preserve">
-    <value>10000</value>
+    <value>240000</value>
     <comment>delay for twitter user following in milliseconds</comment>
   </data>
 </root>
